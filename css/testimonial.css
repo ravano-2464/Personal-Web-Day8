@@ -3,9 +3,6 @@
 * {
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 
 body {
@@ -71,6 +68,9 @@ nav ul li .active {
 
 .nav-link a {
     color: black; 
+    white-space: nowrap;
+    display: block;
+    text-decoration: none;
 }
 
 .nav-right a {
